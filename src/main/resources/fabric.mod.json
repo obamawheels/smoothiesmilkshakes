@@ -3,15 +3,15 @@
 	"id": "smoothies",
 	"version": "${version}",
 	"name": "Smoothies & Milkshakes",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "idk i love you elie <3",
 	"authors": [
-		"Me!"
+		"obama_wheels"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/smoothies/icon.png",
 	"environment": "*",
 	"entrypoints": {
