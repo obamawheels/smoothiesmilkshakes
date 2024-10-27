@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "smoothies",
+	"version": "${version}",
+	"name": "Smoothies & Milkshakes",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/smoothies/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.obama.smoothies.SmoothiesMilkshakes"
+		],
+		"fabric-datagen": [
+			"net.obama.smoothies.SmoothiesMilkshakesDataGenerator"
+		],
+		"client": [
+			"net.obama.smoothies.SmoothiesMilkshakesClient"
+		]
+	},
+	"mixins": [
+		"smoothies.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
